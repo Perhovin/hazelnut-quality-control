@@ -1,0 +1,25 @@
+# environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+torch_cache/
+
+# local settings and generated files
+config.json
+dataset_*.csv
+model_*.pth
+model_*.json
+runs/
+results/
+data/
+app_error.log
+*.log
+tmp/
+_screens/
+
+# editors / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
